@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Checkout') {
       steps {
-        git branch:'master', url: 'https://github.com/OWASP/Vulnerable-Web-Application.git'
+        git branch:'main', url: 'https://github.com/TanYS1998/advanced-webserver.git'
       }
     }
     stage('Code Quality Check via SonarQube') {
